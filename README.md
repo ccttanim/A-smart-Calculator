@@ -1,9 +1,9 @@
 # A-smart-Calculator
 A smart calculator that accepts voice input
-![](images/bgl.jpg)
+![](images/bgImg3.jpg)
 # Steps for speech recognition
 For recording, use The SpeechRecognition interface of the Web Speech API.
-Create a new SpeechRecognition object instance using the SpeechRecognition() constructor
+Create a new SpeechRecognition object instance using the SpeechRecognition() constructor.
 Start() of SpeechRecognition will Start the speech recognition service, listening to incoming audio.
 The onresult event handler will b Fired when the speech recognition service returns a result, as in it fires when the user stoped speaking.
 Finally, get the transcript of the speech recognition.
